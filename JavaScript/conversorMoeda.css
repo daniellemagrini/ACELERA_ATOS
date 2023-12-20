@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: rgb(10, 80, 57);
+}
+
+#titulo {
+    margin: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+    color:  rgb(191, 196, 194);
+}
+
+.principal {
+    background-color: rgb(255, 255, 255);
+    border-radius: .7rem;
+    margin: .5rem;
+}
+
+.principal__menor {
+    margin: .5rem;
+}
+
+.principal__menor__valores, .textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .5rem;
+    flex-wrap: wrap;
+    padding: .7rem .3rem;
+}
+
+.input, .select {
+    height: 2rem;
+    margin: 0;
+    padding-left: .4rem;
+}
+
+.iconeFlecha {
+    margin: .5rem 7rem;
+}
+
+.textos p {
+    font-size: small;
+}
+
+.textos span {
+    color: rgb(255, 0, 0);
+}
+
+.pdireita {
+    display: none;
+}
+
+
+@media (min-width: 700px) {
+    .textos {
+         text-align: center;
+    }
+}
+
+
+@media (min-width: 992px) {
+    #titulo {
+        text-align: center;
+    }
+
+    .principal__menor {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .pdireita {
+        display: block;
+    }
+
+    .pbaixo {
+        display: none;
+    }
+
+    .textos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10rem;
+   }
+}

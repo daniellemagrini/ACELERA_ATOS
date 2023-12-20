@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+  
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+}
+  
+main {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+  
+h1 {
+    text-align: center;
+}
+  
+hr {
+    font-weight: bold;
+    height: .2rem;
+    background: black;
+    margin-bottom: .6rem;
+}
+  
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+  
+.game button {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: .3rem;
+    cursor: grab;
+    font-size: 3rem;
+    background: #f7f7f7;
+}
+
+.PlayersjogoDaVelha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10rem;
+    gap: 1rem;
+    margin: 1rem auto 1rem auto;
+}
+
+.PlayersjogoDaVelha button {
+    padding: .3rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.PlayersjogoDaVelha span {
+    padding: 1rem;
+}
+
+.StartjogoDaVelha {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding: .6rem;
+}
+
+.hide {
+    display: none;
+}
+
+.player1 {
+    color: rgb(53, 56, 122);
+}
+
+.player2, .playerComp {
+    color: rgb(255, 0, 0); 
+}

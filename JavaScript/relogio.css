@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#imagemRelogioFundo {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 4.5rem;
+    position: relative;
+}
+
+#time {
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 6.6rem;
+    left: 35rem;
+    gap: 6rem;
+}
+
+#timerMinutes, #timerSeconds {
+    font-size: 4.5rem;
+    position: absolute;
+    color: rgb(255, 255, 255);
+}
+
+#timerMinutes {
+    top: 9rem;
+    left: 34.5rem;
+}
+
+#timerSeconds {
+    top: 9rem;
+    left: 40rem;
+}
+
+#counter span {
+    font-size: 4.5rem;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 8.6rem;
+    left: 38.9rem;
+}
+
+#botaoCima, #botaoBaixo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: .7rem;
+    position: absolute;
+    color: rgb(255, 255, 255);
+}
+
+#botaoCima {
+    top: 16rem;
+    left: 35.5rem;
+}
+
+#botaoCima button, #botaoBaixo button {
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid #555050;
+    border-radius: .3rem;
+    padding: .4rem;
+    background-color: #323131;
+    cursor: pointer;
+}
+
+#botaoBaixo {
+    top: 18.5rem;
+    left: 35.5rem;
+}
+
+#btResetar {
+    color: rgb(244, 249, 75);
+}
+
+#btPausar {
+    color: rgb(253, 87, 75);
+}
+
+#btContinuar {
+    color: rgb(75, 243, 75);
+}
+
+#btResetar:hover, #btPausar:hover, #btContinuar:hover {
+    transform: scaleY(1.1);
+    background-color: rgb(107, 107, 107);
+}

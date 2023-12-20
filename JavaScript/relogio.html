@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="relogio.css" />
+</head>
+
+<body>
+    <div id="imagemRelogioFundo">
+        <img src="../Exercícios/img/relogioFundo.jpg" alt="Relógio de pulso no meio da tela">
+        <div id="time">
+            <div id="timeString">
+                <p>Time</p>
+            </div>
+            <div id="realTime">
+                <p id="currentTime"></p>
+            </div>
+        </div>
+        <div id="counter">
+            <h3 id="timerMinutes">00</h3><span>:</span><h3 id="timerSeconds">00</h3>
+        </div>
+        <div id="botaoCima" class="botoes">
+            <button id="btResetar">Reset</button>
+            <button id="btPausar">Pause</button>
+        </div>
+        <div id="botaoBaixo" class="botoes">
+            <button id="btContinuar">Start / Continue</button>
+        </div>
+    </div>
+
+    <script src="relogio.js"></script>
+</body>
+
+</html>
